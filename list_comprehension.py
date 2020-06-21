@@ -5,7 +5,7 @@ squares = []
 for i in range(1,11):
     squares.append(i*i)
 print(squares)
-# The above method is used to create a list by simple method.
+# The above method is used to create a list by simple method or traditional method.
 
 # Now we'll create a list using List Comprehension.
 squares1 = [i*i for i in range(1,11)] # This is a list which you have to define using [].
